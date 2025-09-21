@@ -1,5 +1,6 @@
+--更新
 function sys_player_upd()
-	local p=actors[1] --
+	local p=actors[1] --将第一个放入p中，因为在_init()中，主角是第一个entity的
 	if btn(0) then p.x-=1 end
 	if btn(1) then p.x+=1 end	
 	if btn(2) then p.y-=1 end
