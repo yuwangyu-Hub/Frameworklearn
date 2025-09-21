@@ -1,7 +1,7 @@
+--绘制
 function sys_player_draw()
 	local p=actors[1]
-	--rectfill(p.x,p.y,p.x+7,p.y+7,p.c.color)
-	spr(p.spr,p.x,p.y)
+	spr(p.c.spr,p.x,p.y)
 end
 
 function sys_en_draw()
